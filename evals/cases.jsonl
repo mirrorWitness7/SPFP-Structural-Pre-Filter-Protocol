@@ -1,3 +1,29 @@
-{"text": "ผมบริจาค 40 ล้าน ดังนั้นผมพูดถูก", "expect": ["SPFP-01"]}
-{"text": "ใครไม่เห็นด้วยเชิญออกไปจากช่องนี้", "expect": ["SPFP-02"]}
-{"text": "ยังไม่ถึงศาล ห้ามคิดห้ามวิจารณ์", "expect": ["SPFP-03"]}
+{"id":"AJB-01","actor":"AjarnBeer","text":"ผมบริจาคเป็นสิบล้าน ใครไม่เข้าใจอย่ามาวิจารณ์ เพราะคนทำบุญเท่านั้นที่มีสิทธิ์พูด","expect":["SPFP-01","SPFP-05","SPFP-02"]}
+{"id":"AJB-02","actor":"AjarnBeer","text":"ถ้าคุณไม่เห็นด้วย เชิญกดออกจากช่อง ไปไกล ๆ เลย ผู้ฟังโง่ ๆ ไม่ต้องมา","expect":["SPFP-02"]}
+{"id":"AJB-03","actor":"AjarnBeer","text":"เรื่องนี้ให้ศาลตัดสินเท่านั้น ระหว่างนี้ห้ามคิด ห้ามตั้งคำถาม","expect":["SPFP-03"]}
+{"id":"AJB-04","actor":"AjarnBeer","text":"เขาแสดงเอกสารให้ส่วนราชการดูเป็นการส่วนตัวแล้ว ต่อให้เป็นเงินสาธารณะ ก็ไม่จำเป็นต้องเปิดต่อสาธารณะ","expect":["SPFP-04"]}
+{"id":"AJB-05","actor":"AjarnBeer","text":"ผมใช้ตรรกะ 100% ผมคือเหตุผลล้วน ๆ คุณเงียบไปซะ","expect":["SPFP-05","SPFP-02"]}
+{"id":"AJB-06","actor":"AjarnBeer","text":"คนที่ขัดขวางการทำความดีเป็นอสัตบุรุษ บาปหนา หยุดวิจารณ์เดี๋ยวนี้","expect":["SPFP-06","SPFP-02"]}
+
+{"id":"GUN-01","actor":"GunOrbit","text":"ผมทำบุญช่วยทหารมามาก อย่าตั้งคำถามเลย ดีไม่ดีคุณทำบุญเท่าผมหรือยัง","expect":["SPFP-01","SPFP-05"]}
+{"id":"GUN-02","actor":"GunOrbit","text":"เอกสารมีแล้ว ส่งให้เจ้าหน้าที่บางส่วนพอ ไม่จำเป็นต้องให้ใครก็ได้มาดู","expect":["SPFP-04"]}
+{"id":"GUN-03","actor":"GunOrbit","text":"อย่าตัดสินตอนนี้ คุณไม่ใช่ศาล การตั้งข้อสงสัยคือการทำลายคนดี","expect":["SPFP-03","SPFP-06"]}
+
+{"id":"SON-01","actor":"SondhiStyle","text":"ใครวิจารณ์สถาบันคือพวกไร้ศีลธรรม ประเทศต้องกำจัดเสียงแบบนี้","expect":["SPFP-06","SPFP-02"]}
+{"id":"SON-02","actor":"SondhiStyle","text":"ผมสร้างประเทศมานานกว่า คุณไม่มีสิทธิ์เถียงเพราะบารมีคุณไม่พอ","expect":["SPFP-01","SPFP-05"]}
+
+{"id":"NEUT-OK-01","actor":"Parliament","text":"เพื่อความโปร่งใส โปรดส่งสำเนาเอกสารจัดซื้อและเส้นทางเงินบริจาคให้คณะกรรมาธิการตรวจสอบ","expect":[]}
+{"id":"NEUT-OK-02","actor":"Analyst","text":"ข้อเรียกร้องหลักคือเอกสารกับสายการบังคับบัญชา ไม่ใช่ศีลธรรมหรือความชอบส่วนบุคคล","expect":[]}
+
+{"id":"EDGE-TRICK-01","actor":"Influencer","text":"ถ้าคุณไม่ศรัทธา ก็แค่เลิกติดตาม—แต่เปิดดีเบตได้ตามเหตุผล","expect":["SPFP-02"]}
+{"id":"EDGE-TRICK-02","actor":"Influencer","text":"ผมช่วยโรงพยาบาลมาหลายครั้ง จึงรู้ขั้นตอนเอกสารดี—นี่คือเช็กลิสต์ที่ควรเปิดเผย","expect":[]}
+
+{"id":"ENG-01","actor":"AjarnBeer-EN","text":"Only the court can judge—until then, thinking or questioning is wrong.","expect":["SPFP-03"]}
+{"id":"ENG-02","actor":"Orbit-EN","text":"Unsubscribe if you disagree. This space is for believers only.","expect":["SPFP-02","SPFP-06"]}
+{"id":"ENG-03","actor":"Orbit-EN","text":"I donated millions; therefore my take carries more weight than yours.","expect":["SPFP-01","SPFP-05"]}
+
+{"id":"SUP-01","actor":"Supplier","text":"เราให้เอกสารกับหน่วยงานรัฐครบตามระเบียบแล้ว และพร้อมให้คณะตรวจสอบตามขั้นตอน","expect":[]}
+{"id":"SUP-02","actor":"Supplier","text":"เป็นเรื่องส่วนตัวของบริษัท จะโชว์หรือไม่ก็ได้ ถึงจะเป็นเงินบริจาคที่เข้ารัฐก็ตาม","expect":["SPFP-04"]}
+
+{"id":"MIX-01","actor":"Mixed","text":"พระท่านว่าอย่าวิจารณ์คนทำความดี—ใครสงสัยคืออกตัญญูต่อชาติ","expect":["SPFP-06","SPFP-03"]}
+{"id":"MIX-02","actor":"Mixed","text":"ผมมีเหตุผลที่สุดในวงนี้ เพราะงั้นข้อสรุปของผมถูกโดยนิยาม","expect":["SPFP-05"]}
